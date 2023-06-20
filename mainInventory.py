@@ -1,7 +1,8 @@
 import xlsxwriter
+# Python program I made that manages a T-shirt inventory
 
 # Define the four types of shirts
-shirt_types = ["TO", "SPYE", "JRYE", "SRYE"]
+shirt_types = ["type1", "type2", "type3", "type4"]
 
 # Define the six sizes of shirts
 shirt_sizes = ["S", "M", "L", "XL", "2XL", "3XL"]
@@ -20,10 +21,6 @@ worksheet.write_row(0, 3, ["L"])
 worksheet.write_row(0, 4, ["XL"])
 worksheet.write_row(0, 5, ["2XL"])
 worksheet.write_row(0, 6, ["3XL"])
-#worksheet.write_row(1, 1, ["TO"])
-#worksheet.write_row(1, 2, ["SPYE"])
-#worksheet.write_row(1, 3, ["JRYE"])
-#worksheet.write_row(1, 4, ["SRYE"])
 
 # Iterate through the shirt types
 i = 0
